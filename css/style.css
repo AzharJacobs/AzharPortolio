@@ -60,14 +60,17 @@ p{
   }
   .about-me-contact-btn {
     -webkit-text-stroke-width: 0.3246873915195465;
-    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-color: blueviolet;
     font-family: Poppins, sans-serif;
-    border: 1px solid #fff;
+    border: 2px solid whitesmoke;
     border-radius: 50px;
-    background: linear-gradient(0deg, #fff 0%, #fff 100%), #fff;
-    color: #161513;
+    color: whitesmoke;
     justify-content: center;
     padding: 24px 30px;
+    &:hover{
+      border: 2px solid blueviolet;
+      color: blueviolet;
+    }
   }
   .about-me-download-btn {
     -webkit-text-stroke-width: 0.3246873915195465;
@@ -75,9 +78,13 @@ p{
     font-family: Poppins, sans-serif;
     border-radius: 50px;
     border: 2px solid #fff;
-    color: #fff;
+    color: whitesmoke;
     justify-content: center;
     padding: 24px 28px;
+    &:hover{
+      border: 2px solid blueviolet;
+      color: blueviolet;
+    }
   }
 
 /* Resume Section */
@@ -95,5 +102,13 @@ p{
 }
 #img[Logo]{
   align-items: center;
+  left: 15%;
+}
+/* Testimonail Section */
+.card{
+  background-color: transparent;
+  color: whitesmoke;
+}
+#img[profile]{
   left: 15%;
 }
