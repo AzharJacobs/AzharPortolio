@@ -84,3 +84,16 @@ p{
 .col{
     color: whitesmoke;
 }
+
+/* Skills section */
+#carouselExampleDark{
+  width: 50%;
+  left: 25%;
+}
+#carousel-inner{
+  align-items: center;
+}
+#img[Logo]{
+  align-items: center;
+  left: 15%;
+}
