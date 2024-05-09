@@ -169,13 +169,13 @@ text-align: center;
 
 i.fa-arrow-right,
 i.fa-arrow-left {
-background: orangered;
+background: blueviolet;
 padding: 10px;
 border-radius: 100%;
 }
 
 .carousel-indicators [data-bs-target] {
-background-color: orangered;
+background-color: blueviolet;
 width: 10px;
 height: 10px;
 border-radius: 100%;
