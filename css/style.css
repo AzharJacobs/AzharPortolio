@@ -2,7 +2,7 @@ body{
     background-color: #333333;
 }
 p{
-    color: #8f1dd5;
+    color: #ffffff;
 }
 :is(.nav-link) {
   color: blueviolet;
@@ -138,6 +138,20 @@ p{
 }
 .accordion[btn]{
   color: whitesmoke;
+}
+.accordion-button {
+  background-color: transparent;
+  color: rgb(255, 255, 255) !important;
+  box-shadow: blueviolet;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  transition: all 0.5s;
+  border-radius: 20px;
+  &:hover {
+      box-shadow: unset;
+      border: 2px solid blueviolet;
+      color: blueviolet;
+  }
 }
 
 /* Skills section */
