@@ -277,8 +277,20 @@ color: whitesmoke;
 #img[profile]{
 left: 15%;
 }
+.row{
+  left: 25%;
+  justify-content: center;
+}
+#Testimonials{
+  left: 25%;
+  justify-content: center;
+}
 
 /* Projects Section */
 #Project{
 bottom: 15%;
+}
+#view{
+  background-color: blueviolet;
+  align-items: center;
 }
