@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
 </head>
@@ -13,7 +14,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-dark bg-dark sticky-top">
         <div class="container-fluid justify-content-between">
-            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8ae782b82f64f1bda83e5ec835e4fb43d4137dd0706b5bfafd016659a9b496c7?apiKey=0bccd99636064f128fb65b1d52624404&"
+            <img src="/Logos/Logo.jpg"
                 alt="Logo" class="navbar-brand" width="60px" />
             <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
         <nav class="navbar navbar-dark bg-dark">
@@ -53,7 +54,7 @@
     </nav>
   
      <!-- Header Section -->
-    <header class="header-section">
+    <header id="home" class="header-section">
         <div class="header-content">
             <img src="/Profile/Azhar.jpg" alt="Image" class="header-image" width="250" height="250">
             <div class="header-text typewriter">
@@ -72,7 +73,7 @@
       <div id="about" class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h2 class="text-uppercase mb-4 about-me-title fade-in-down">About me</h2>
+            <h2 class="text-uppercase mb-4 about-me-title" data-aos="zoom-in">About me</h2>
             <p class="text-center about-me-description">
               Welcome to My corner of the digital realm, where creativity meets precision in the world of software development. I am a passionate and dedicated software developer with a keen eye for innovation and a knack for turning ideas into seamless, functional applications.
               Beyond the lines of code, I am an avid problem solver who thrives on challenges and is always eager to learn new things in the digital world. Outside the digital realm, I find joy in gaming, outdoor activities, and anime watching, which serve as key inspirations for my digital artwork, adding a flavorful and visually rich dimension to life.
@@ -117,7 +118,7 @@
     <!-- Resume Section -->
     <section id="resume">
       <div id="Resume" class="container text-center">
-        <h2 class="text-uppercase mb-4 about-me-title fade-in-down">My Resume</h2>
+        <h2 class="text-uppercase mb-4 about-me-title" data-aos="zoom-in">My Resume</h2>
           <div class="row">
 
               <div class="col">
@@ -198,10 +199,10 @@
     <div class="p-2 g-col-3"><br /></div>
   </div>
       <!-- Skills Section -->
-      <section id="Skills">
+      <section id="Skills h-50">
         <div id="carouselExampleCaptions" class="carousel slide">
           <section>
-            <h2 class="text-uppercase mb-4 about-me-title fade-in-down">My Skills</h2>
+            <h2 class="text-uppercase mb-4 about-me-title" data-aos="zoom-in">My Skills</h2>
         </section>
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -218,6 +219,7 @@
                 <aside class="card team1">
                     <img src="/Logos/html.jpg" alt="">
                     <h2 class="name">HTML</h2>
+                    <p>advanced </p>
                 </aside>
               </div>
  
@@ -225,6 +227,7 @@
                 <aside class="card team1">
                     <img src="/Logos/css.png" alt="">
                     <h2 class="name">CSS</h2>
+                    <p>intermediate </p>
                 </aside>
               </div>
  
@@ -232,20 +235,23 @@
                 <aside class="card team1">
                   <img src="/Logos/azure.png" alt="">
                   <h2 class="name">Azure</h2>
+                  <p>beginner </p>
               </aside>
               </div>
  
               <div class="carousel-item">
                 <aside class="card team1">
-                  <img src="/Logos/js.jpg" alt="">
+                  <img src="/Logos/bootstrap2.png" alt="">
                   <h2 class="name">bootstrap</h2>
+                  <p>amatuer</p>
                 </aside>
               </div>
  
               <div class="carousel-item">
                 <aside class="card team1">
-                  <img src="/Logos/Java.jpg" alt="">
+                  <img src="/Logos/js.jpg" alt="">
                   <h2 class="name">Java</h2>
+                  <p>intermediate </p>
                 </aside>
               </div>
  
@@ -253,6 +259,7 @@
                 <aside class="card team1">
                   <img src="/Logos/sql.webp" alt="">
                   <h2 class="name">MySQL</h2>
+                  <p>advanced </p>
                 </aside>
               </div>
  
@@ -275,14 +282,14 @@
       <div class="p-2 g-col-3"><br /></div>
     </div>
     <!-- Testimonails Sections -->
-    <h2 class="text-uppercase mb-4 about-me-title text-center fade-in-down">My Testimonails</h2>
+    <h2 class="text-uppercase mb-4 about-me-title text-center" data-aos="zoom-in">My Testimonails</h2>
     <secion id="Testimonails" class="container">
       <div class="row" id="Testimonials">
           <div class="card-img" style="width: 18rem;">
               <img src="/Profile/amy.jpg" class="card-img-top" alt="">
               <div class="card-body">
                 <p class="card-text text-center">
-                  Amy is a dedicated and talented individual with a remarkable ability to tackle any challenge. Her creativity and passion shine through in everything she does. It's been a pleasure working with Amy, and I would highly recommend her to anyone seeking a reliable and innovative team member..
+                  Azhar's dedication and expertise helped me navigate complex financial decisions with ease. His insights were invaluable, and I highly recommend his services.I was impressed by Azhar's professionalism and attention to detail. He provided clear explanations and tailored solutions to meet my financial goals.
                 </p>
               </div>
             </div>
@@ -290,7 +297,7 @@
               <img src="/Profile/jamin.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text text-center">
-                  Jamin is a true professional with a unique ability to think outside the box. His innovative approach to problem-solving and his dedication to delivering high-quality results make him a valuable asset to any team. Working with Jamin has been a fantastic experience, and I would highly recommend him for any project..
+                  azhar is a true professional with a unique ability to think outside the box. His innovative approach to problem-solving and his dedication to delivering high-quality results make him a valuable asset to any team. Working with Azhar has been a fantastic experience, and I would highly recommend him for any project..
                 </p>
               </div>
             </div>
@@ -298,7 +305,7 @@
               <img src="/Profile/nasheeta.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text text-center">
-                  Nasheeta is an exceptional professional who consistently delivers outstanding results. Her attention to detail and commitment to excellence are truly impressive. Working with Nasheeta has been a pleasure, and I highly recommend her services.
+                  Azhar is an exceptional professional who consistently delivers outstanding results. His attention to detail and commitment to excellence are truly impressive. Working with AZhar has been a pleasure, and I highly recommend His services.
                 </p>
               </div>
             </div>
@@ -306,15 +313,15 @@
               <img src="/Profile/zak.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text text-center">
-                  Zakariya is a highly skilled professional with a passion for excellence. His commitment to achieving the best possible outcomes is evident in everything he does. Working with Zakariya has been a pleasure, and I would highly recommend him to anyone looking for a dedicated and talented team member.
+                  Azhar is a highly skilled professional with a passion for excellence. His commitment to achieving the best possible outcomes is evident in everything he does. Working with azhar has been a pleasure, and I would highly recommend him to anyone looking for a dedicated and talented team member.
                 </p>
               </div>
             </div>
             <div class="card-img" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="/Profile/joel2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text text-center">
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Azhar is a true expert in his field. His advice was instrumental in helping me secure a stable financial future. I can't thank him enough.Working with Azhar was a game-changer for my finances. His strategic advice and personalized approach set him apart from others in the field
                 </p>
               </div>
             </div>
@@ -327,11 +334,11 @@
   </div>
     <!-- Project Section -->
     <section id="Projects" class="Project">
-    <h2 class="text-uppercase mb-4 about-me-title text-center fade-in-down">My Projects</h2>
+    <h2 class="text-uppercase mb-4 about-me-title text-center" data-aos="zoom-in">My Projects</h2>
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
         <div class="card align-items-center">
-          <img src="/Projects/calculator.JPG" class="card-img-top w-50 h-50" alt="...">
+          <img src="/Projects/calculator.JPG" class="card-img-top w-50 h-50" data-aos="flip-left" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">Calculator</h5>
             <div class="col-12">
@@ -355,11 +362,11 @@
       </div>
       <div class="col">
         <div class="card align-items-center">
-          <img src="/Projects/Keyboard.JPG" class="card-img-top w-50 h-50" alt="...">
+          <img src="/Projects/Keyboard.JPG" class="card-img-top w-50 h-50" data-aos="flip-left" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">Keyboard</h5>
             <div class="col-12">
-              <a href="https://calculator-blond-rho.vercel.app/">
+              <a href="https://keyboard-mocha-nine.vercel.app/">
                 <button type="submit" class="btn btn-primary" id="view">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cursor-fill" viewBox="0 0 16 16">
                   <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"/>
@@ -379,7 +386,7 @@
       </div>
       <div class="col">
         <div class="card align-items-center">
-          <img src="/Projects/fastfood.JPG" class="card-img-top w-50 h-50" alt="...">
+          <img src="/Projects/fastfood.JPG" class="card-img-top w-50 h-50" data-aos="flip-left" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">Resturant</h5>
             <div class="col-12">
@@ -403,7 +410,7 @@
       </div>
       <div class="col">
         <div class="card align-items-center">
-          <img src="/Projects/Travel.JPG" class="card-img-top w-50 h-50" alt="...">
+          <img src="/Projects/hulu.png" class="card-img-top w-50 h-50" data-aos="flip-left" alt="...">
           <div class="card-body">
             <h5 class="card-title text-center">Hulu</h5>
             <div class="col-12">
@@ -425,6 +432,30 @@
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card align-items-center">
+          <img src="/Projects/flex.png" class="card-img-top w-50 h-50" data-aos="flip-left" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Layout</h5>
+            <div class="col-12">
+              <a href="https://flex-lilac.vercel.app/">
+                <button type="submit" class="btn btn-primary" id="view" >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cursor-fill" viewBox="0 0 16 16">
+                  <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"/>
+                </svg></i>
+                </button>
+              </a>
+            <a href="https://github.com/AzharJacobs/Flex">
+              <button type="submit" class="btn btn-primary" id="view">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                </svg>
+              </button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -433,48 +464,48 @@
     <div class="p-2 g-col-3"><br /></div>
   </div>
       <!-- Contact Section -->
-      <form
-  action="https://formspree.io/f/mkndenba"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
-    <!-- <section id="Contact">
-      <form class="row g-3">
-        <div class="col-md-6 text-light">
-          <label for="inputEmail4" class="form-label">First Name</label>
-          <input type="email" class="form-control bg-transparent border-primary" id="inputEmail4">
-        </div>
-        <div class="col-md-6 text-light">
-          <label for="inputPassword4" class="form-label">Surname</label>
-          <input type="password" class="form-control bg-transparent border-primary" id="inputPassword4">
-        </div>
-        <div class="col-12 text-light">
-          <label for="inputAddress" class="form-label">Email</label>
-          <input type="text" class="form-control bg-transparent border-primary" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12 text-light">
-          <label for="inputAddress2" class="form-label">Message</label>
-          <input type="text" class="form-control bg-transparent border-primary" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6 text-light">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control bg-transparent border-primary" id="inputCity">
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </form>
-    </section> -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <div class="containerA">
+        <h2 class="text-uppercase mb-4 about-me-title text-center" data-aos="zoom-in">Contact Me</h2>
+        <form class="form" id="Contact" action="https://formspree.io/f/mkndenba" method="POST">
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input required id="firstName" name="firstName" type="text" class="input">
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input required id="lastName" name="lastName" type="text" class="input">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input required id="email" name="email" type="email" class="input">
+            </div>
+
+            <div class="form-group">
+                <label for="contactNumber">Contact Number</label>
+                <input required id="contactNumber" name="contactNumber" type="tel" class="input">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea required id="message" name="message" rows="3" class="input01"></textarea>
+            </div>
+
+            <button type="submit" class="fancy">
+                <span class="top-key"></span>
+                <span class="text">Submit</span>
+                <span class="bottom-key-1"></span>
+                <span class="bottom-key-2"></span>
+            </button>
+        </form>
+    </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
